@@ -1,0 +1,9 @@
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class SkillDemoTest {
+    @Test
+    public void testSubtract() {
+        assertEqualk(4, SkillDemo.subtract(5, 3));
+    }
+}
